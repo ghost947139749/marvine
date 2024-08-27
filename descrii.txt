@@ -1,0 +1,7 @@
+site da Marvine:
+	-Apresentação da marvine
+	-Testemunhas
+	-formulario de inscricao
+	-modal com a descricao do sevico ou formacao ao clicar num servico
+	-mmodal de sucesso e insucesso
+	-  

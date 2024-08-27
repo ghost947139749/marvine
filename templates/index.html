@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Marvine Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- BOT CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="{{ url_for('static' , filename='css/bot.css') }} ">
+  <!-- BOT CSS -->
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.pn" rel="icon">
+  <link href="static/img/LogoMarca.png" rel="LogoMarca">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{{ url_for('static' , filename='lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{{ url_for('static' , filename='lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static' , filename='lib/animate/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static' , filename='lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static' , filename='lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static' , filename='lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{{ url_for('static' , filename='css/style.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <a href="#intro" class="scrollto ">
+          <img src="../static/img/logo.png" alt="">
+
+        </a>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contactos</a></li>
+          <li><a href="./form.html">Inscrição</a></li>
+          <li><a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal">Falar com assistente</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url('/static/img/intro-carousel/12.png');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>SEJA BEM VINDO</h2>
+                <p>Estamos entusiasmados em receber você! na Marvine, nosso objectivo e fornecer soluções inovadoras e
+                  eficazes em consultoria e treinamentos</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Começcar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('/static/img/intro-carousel/13.png');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2> A MARVINE </h2>
+                <p>Na Marvine, somos apaixonados por impulsionar os sucessos dos nossos clientes. Com anos de
+                  experiência no mercado, nossa equipe de consultores e treinadores é especializada em análise
+                  extrategica</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Começar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('/static/img/intro-carousel/14.png');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>SEJA BEM VINDO</h2>
+                <p>Estamos entusiasmados em receber você! na Marvine, nosso objectivo e fornecer soluções inovadoras e
+                  eficazes em consultoria e treinamentos</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Começar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('/static/img/intro-carousel/15.png');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2> A MARVINE </h2>
+                <p>Na Marvine, somos apaixonados por impulsionar os sucessos dos nossos clientes. Com anos de
+                  experiência no mercado, nossa equipe de consultores e treinadores é especializada em análise
+                  extrategica</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Começar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('/static/img/intro-carousel/16.png');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>SEJA BEM VINDO</h2>
+                <p>Estamos entusiasmados em receber você! na Marvine, nosso objectivo e fornecer soluções inovadoras e
+                  eficazes em consultoria e treinamentos</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Começar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Proximo</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Featured Services Section   
+    ============================-->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">Fidelidade aos clientes</a></h4>
+            <p class="description">Transparência e Comunicação Clara:
+
+              Manter os clientes informados sobre todos os aspectos de seus serviços.
+              Explicar conceitos contábeis e financeiros de forma acessível.
+              Atendimento Personalizado:
+
+              Entender as necessidades específicas de cada cliente e oferecer soluções sob medida.
+              Demonstrar interesse genuíno pelo sucesso do cliente.
+              Confidencialidade e Ética.
+            </p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="">Trabalho duro</a></h4>
+            <p class="description">
+              Nossa equipe é composta por profissionais experientes e qualificados, comprometidos com a excelência e a ética em todas as nossas actividades, valorizamos a transparência e a confiança, estabelecendo relacionamentos duradouros com nossos clientes.
+            </p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="">Resiliencia</a></h4>
+            <p class="description">Nossa missão é apoiar nossos clientes no crescimento e sucesso de seus negócios através de soluções precisas e personalizadas.<br>
+              Na Marvine acreditamos que cada cliente é único. Por isso, oferecemos serviços personalizados que atendem às necessidades especifícas de cada negócio, utilizando as melhores práticas e tecnologias do mercado.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #featured-services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>SOBRE NÓS</h3>
+          <p>Na MARVINE , somos apaixonados por impulsionar o sucesso dos nossos clientes. Com anos de experiência no
+            mercado, nossa equipe de consultores e treinadores é especializada em análise estratégica</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="/static/img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nossa Missão</a></h2>
+              <p>
+                Entendimento profundo das necessidades e contextos específicos no trabalho contábil.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="/static/img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline "></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nossos valores</a></h2>
+              <p>
+                Benefícios tangíveis como redução de custos, conformidade e habilidades aprimoradas, tanto na
+                consultoria quanto no treinamento contábil.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="/static/img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Nossa visão</a></h2>
+              <p>
+                Estratégia de longo prazo e direção clara para guiar consultorias e treinamentos.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container ">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Serviços</h3>
+          <p>
+            Benefícios tangíveis como redução de custos, conformidade e habilidades aprimoradas, tanto na consultoria
+            quanto no treinamento contábil.
+          </p>
+        </header>
+        <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+
+          <div class="carousel-inner" role="listbox">
+
+            <div class="carousel-item active" id="1">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="...." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Constituição e Legalização de Empresas</h5>
+                          <p class="card-text description">Serviço que auxilia na criação e formalização legal de novas empresas, garantindo conformidade com regulamentos locais.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Organização Mensal da Contabilidade</h5>
+                          <p class="card-text description">Gerenciamento completo e mensal das atividades contábeis de uma empresa, com relatórios detalhados para suporte à gestão..</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Fecho de Contas</h5>
+                          <p class="card-text description">Processo de encerramento do exercício contábil, assegurando que todas as transações estejam corretamente registradas e finalizadas.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Recuperação de Contas</h5>
+                          <p class="card-text description">
+                            Serviço especializado na recuperação de contas em atraso ou pendentes, buscando resolver e regularizar pendências financeiras
+                            .</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Relatório Anual para AGT</h5>
+                          <p class="card-text description">
+                            Preparação e submissão do relatório anual de rendimentos para a Administração Geral Tributária.
+                          </p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Modelo 1 do Imposto Industria</h5>
+                          <p class="card-text description">
+                            Elaboração e submissão do modelo 1 do imposto industrial, conforme exigido pela legislação fiscal.
+                          </p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="carousel-item " id="2">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="...." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Modelo 2 do IRT, Declaração Anual do Imposto de Selo</h5>
+                          <p class="card-text description">
+                            Preparação e apresentação do modelo 2 do imposto sobre o rendimento do trabalho (IRT) e declaração anual do imposto de selo.
+                          </p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Submissão Mensal da Declaração do IVA</h5>
+                          <p class="card-text">Cumprimento mensal das obrigações fiscais relacionadas ao imposto sobre o valor acrescentado (IVA), incluindo a preparação e submissão das declarações correspondentes.</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Fiscalidade (Gestão de Imposto)</h5>
+                          <p class="card-text description">Serviço abrangente de gestão fiscal, incluindo planejamento tributário e conformidade com as normas fiscais vigentes.</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Legalização de Marcas</h5>
+                          <p class="card-text description">  Processo de registro e legalização de marcas comerciais para proteção legal contra uso não autorizado.</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Obtenção de Licença de Publicidade</h5>
+                          <p class="card-text description">Assistência na obtenção de licenças necessárias para atividades publicitárias conforme regulamentações locais.</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Levantamento de Suspensão do NIF</h5>
+                          <p class="card-text description"> Procedimento para regularizar e levantar a suspensão do número de identificação fiscal (NIF) de uma entidade.</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+             
+            <div class="carousel-item " id="3">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="...." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Alvarás (Comercial, de Prestação de Serviços e Industrial)</h5>
+                          <p class="card-text description">Emissão e renovação de licenças e autorizações necessárias para operações comerciais, de serviços e industriais..</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Certidão de Conformidade Tributário</h5>
+                          <p class="card-text description">
+                            Emissão de certificados que atestam a conformidade tributária de uma entidade com as obrigações fiscais.
+                          </p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem; ">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Inscrição na Segurança Social (INSS) para Particulares e Empresas</h5>
+                          <p class="card-text description">
+                            Auxílio na inscrição de indivíduos e empresas no sistema de segurança social, assegurando conformidade com os requisitos legais.
+                          </p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Resolução de Conflitos Relacionados com Impostos e Segurança Social com o Estado</h5>
+                          <p class="card-text description">Mediação e resolução de disputas e litígios relacionados a questões fiscais e de segurança social com as autoridades estatais.</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Recursos Humanos (Processamento Salarial, Contratos de Trabalho)</h5>
+                          <p class="card-text description">
+                            Gestão completa das atividades relacionadas a recursos humanos, incluindo processamento salarial, gestão de contratos de trabalho e conformidade com legislação trabalhista.
+                          </p>
+                          <a href="#" class="btn btn-primary">saber mais</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Treinamento em Contabilidade Sênior e Fiscalidade para Empresas e Particulares</h5>
+                          <p class="card-text description">Programas educacionais personalizados em contabilidade avançada e fiscalidade para empresas e indivíduos.
+                          </p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="carousel-item " id="4">
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="...." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Estudo de Viabilidade Econômica e Financeira</h5>
+                          <p class="card-text description">Análise detalhada para avaliar a viabilidade econômica e financeira de projetos e investimentos.</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                      <div class="card" style="width: 18rem;">
+                        <img src="...." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Instalação e Configuração do Programa de Contabilidade V9 e V10:</h5>
+                          <p class="card-text description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                          <a href="#" class="btn btn-primary">saber mais...</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            
+          </div>
+        </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>CHAMADA PARA ACCÃO</h3>
+        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <a class="cta-btn" href="#">Chamada para acção</a>
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Skills Section
+    ============================-->
+    <section id="skills">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>NOSSAS HABILIDADE</h3>
+          <p>Essas habilidades permitem que uma consultoria de contabilidade ofereça serviços abrangentes e de alta
+            qualidade, ajudando as empresas a alcançar seus objetivos financeiros e operacionais. </p>
+        </header>
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Análise Estratégica <i class="val">100%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Treinamento Personalizado <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Gestão de Mudanças <i class="val">75%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Desenvolvimento de Liderança <i class="val">55%</i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Facts Section
+    ============================-->
+    <section id="facts" class="wow fadeIn">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Factos</h3>
+          <p>Transformamos Números em Estratégias,Geramos Eficiência e Crescimento, Sua Tranquilidade Financeira,
+            Simplificamos sua Contabilidade, Potencializamos seu Negócio, Nosso Compromisso de Excelência."</p>
+        </header>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clientes</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projetos</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Horas de suporte</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Trabalho Duro</p>
+          </div>
+
+        </div>
+
+        <div class="facts-img">
+
+        </div>
+
+      </div>
+    </section><!-- #facts -->
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Nossos clientes</h3>
+        </header>
+
+        <div class="owl-carousel clients-carousel">
+          <img src="/static/img/clients/client-1.png" alt="">
+          <img src="/static/img/clients/client-2.png" alt="">
+          <img src="/static/img/clients/client-3.png" alt="">
+          <img src="/static/img/clients/client-4.png" alt="">
+          <img src="/static/img/clients/client-5.png" alt="">
+          <img src="/static/img/clients/client-6.png" alt="">
+          <img src="/static/img/clients/client-7.png" alt="">
+          <img src="/static/img/clients/client-8.png" alt="">
+        </div>
+
+      </div>
+    </section><!-- #clients -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testemunhas</h3>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="static/img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+            <p>
+              <img src="static/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+              quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <img src="/static/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="/static/img/testimonial-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+            <p>
+              <img src="/static/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+              quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <img src="/static/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="/static/img/testimonial-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+            <p>
+              <img src="/static/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
+              labore quem eram duis noster aute amet eram fore quis sint minim.
+              <img src="/static/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="/static/img/testimonial-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+            <p>
+              <img src="/static/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
+              dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <img src="/static/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="/static/img/testimonial-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+            <p>
+              <img src="/static/img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+              labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <img src="/static/img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header wow fadeInUp">
+          <h3>Team</h3>
+          <p>A Marvine possui uma equipe qualificada e experiente. </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="/static/img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="/static/img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="/static/img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="/static/img/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contacte-nos</h3>
+          <p>Contacte-nos para poder obter informações mais precisas.</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Endereço</h3>
+              <address>AV. Hoji-ya-henda, Angola</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Número de tel</h3>
+              <p><a href="tel:+155895548855">923815935</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">marvinecontabilidade@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">A sua mensagem já foi enviada. Obrigado!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email"
+                  data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Objectivo"
+                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center">
+              <button type="submit">Enviar mensagem</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Marvine</h3>
+            <p>A Marvine e Treinamento é uma empresa especializada em oferecer serviços de consultoria e contabilidade de alta qualidade para empresa de diversos sectores.
+
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links úteis</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">sobre Nós</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Serviços</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Termos de Serviços</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacidade Politíca</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contacte-nos</h4>
+            <p>
+              AV. Hoji-ya-henda (ex AV. Brasil)<br>
+              Edifício Azul, em frente as torres da Cidadela<br>
+              Luanda, Angola <br>
+              <strong>Tel:</strong> 923815935/926963573/941866902<br>
+              <strong>Email:</strong> marvine.contabilidade@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Nosso boletim informativo</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore
+              legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscrever">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Marvine</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+        -->
+        Best <a href="https://bootstrapmade.com/">Bootstrap Templates</a> by BootstrapMade
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+
+  <!-- COD BOT -->
+
+
+
+
+    <!-- Button trigger modal -->
+    <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+  </button>-->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">MarvineBot</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div class="chat-box" id="chatBox"></div>
+                  <div class="mt-3">
+                      <div class="input-group">
+                          <input type="text" class="form-control" id="messageInput" placeholder="Type a message">
+                          <button class="btn btn-primary" id="sendButton" type="button">Send</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <script src="/static/js/bot.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+  <!-- COD BOT -->
+
+  <!-- JavaScript Libraries -->
+  <script src="/static/lib/jquery/jquery.min.js"></script>
+  <script src="/static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="/static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/lib/easing/easing.min.js"></script>
+  <script src="/static/lib/superfish/hoverIntent.js"></script>
+  <script src="/static/lib/superfish/superfish.min.js"></script>
+  <script src="/static/lib/wow/wow.min.js"></script>
+  <script src="/static/lib/waypoints/waypoints.min.js"></script>
+  <script src="/static/lib/counterup/counterup.min.js"></script>
+  <script src="/static/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="/static/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="/static/lib/lightbox/js/lightbox.min.js"></script>
+  <script src="/static/lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="/static/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="/static/js/main.js"></script>
+
+</body>
+
+</html>

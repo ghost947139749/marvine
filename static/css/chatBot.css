@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    position: fixed;
+    width: 380px;
+    height: 900px;
+    background-color: #c50014;
+}
+
+aside #logo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-left: 380px;
+    border: none;
+    border-bottom: 2px solid ;
+}
+
+#voltar {
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+header h2 {
+    font-size: 18px;
+    margin: 12px;
+}
+
+.menssage {
+    margin-left: -1350px;
+    margin-top: 20px;
+}
+
+.bot {
+    width: 400px;
+    min-height: 50px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.user {
+    width: 400px;
+    min-height: 50px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 560px;
+}
+
+
+input {
+    position: fixed;
+    width: 700px;
+    min-height: 40px;
+    margin-top: 370px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 4px;
+}
